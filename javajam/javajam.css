@@ -1,33 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Luckiest+Guy&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 
 body {
+  background-attachment: fixed;
   background-color: #fcebb6;
   background-image: url(Assets/fadedroad50.jpg);
-  background-attachment: fixed;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   color: #221811;
   font-family: "Bitter", serif;
 }
 
 #wrapper {
+  background-color: #231814;
+  box-shadow: 3px 3px 3px #676767;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
   min-width: 900px;
-  box-shadow: 3px 3px 3px #676767;
+  padding: 0;
   width: 80%;
-  background-color: #fefaeb;
 }
 
 header {
-  color: #8c3826;
   background-color: #d2b48c;
-  text-align: center;
-  padding-top: 5px;
+  background-image: url(Assets/coffeelogo.jpg);
+  background-repeat: no-repeat;
+  color: #231814;
   padding-bottom: 5px;
+  padding-left: 240px;
+  padding-top: 5px;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header a:link {
+  color: #231814;
+}
+
+header a:visited {
+  color: #231814;
+}
+
+header a:hover {
+  color: #fef6c2;
+}
+
+main {
+  background-color: #fef6c2;
+  margin-left: 200 px;
+  overflow: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+main h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+  padding-left: 3em;
+  padding-right: 2em;
 }
 
 h1 {
@@ -42,17 +84,21 @@ h2 {
   font-family: "Luckiest Guy", cursive;
 }
 
-h3,dt {
+h3,
+dt {
   color: #8c3826;
   font-family: "Luckiest Guy", cursive;
 }
 
 h4 {
   background-color: #d2b48c;
+  border-bottom: 1px solid #221811;
   font-family: "Luckiest Guy", cursive;
   font-size: 1.2em;
+  padding-bottom: 0;
+  text-transform: uppercase;
   padding-left: .5em;
-  padding-bottom: .25em;
+  clear: left;
 }
 
 nav {
@@ -61,15 +107,46 @@ nav {
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
+  float: left;
+  width: 200px;
 }
 
 nav a {
   text-decoration: none;
 }
 
+nav a:link {
+  color: #fef6c2;
+}
+
+nav a:hover {
+  color: #cc9933;
+}
+
+nav a:visited {
+  color: #d2b48c;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
 .details {
-  padding-left: 20%;
   padding-right: 20%;
+  margin-left: 20%;
+  overflow: auto;
+}
+
+.floatleft {
+  float: left;
+  padding-bottom: 2em;
+  padding-right: 2em;
+}
+
+.onethird {
+  float: left;
+  width: 33%;
 }
 
 img {
@@ -82,7 +159,21 @@ img {
   height: 300px;
   background-image: url(Assets/hero.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+}
+
+#heromugs {
+  height: 300px;
+  background-image: url(Assets/heromugs.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#heroguitar {
+  height: 300px;
+  background-image: url(Assets/heroguitar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 footer {
@@ -91,5 +182,5 @@ footer {
   font-size: 0.6em;
   font-style: italic;
   padding-bottom: 1em;
-  border-top: 2px solid #8C3826;
+  border-top: 2px solid #8c3826;
 }
