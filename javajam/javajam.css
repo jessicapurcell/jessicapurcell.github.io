@@ -2,185 +2,322 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Luckiest+Guy&display=swap");
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+/* Configure Small Layout */
 body {
-  background-attachment: fixed;
-  background-color: #fcebb6;
-  background-image: url(Assets/fadedroad50.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #221811;
-  font-family: "Bitter", serif;
+	background-color: #D2B48C;
+	color: #221811;
+	font-family: Tahoma, Arial, sans-serif;
+	margin: 0;
 }
 
 #wrapper {
-  background-color: #231814;
-  box-shadow: 3px 3px 3px #676767;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1280px;
-  min-width: 900px;
-  padding: 0;
-  width: 80%;
+	background-color: #231814;
+	padding: 0;
 }
 
 header {
-  background-color: #d2b48c;
-  background-image: url(Assets/coffeelogo.jpg);
-  background-repeat: no-repeat;
-  color: #231814;
-  padding-bottom: 5px;
-  padding-left: 240px;
-  padding-top: 5px;
+	background-color: #D2B48C;
+	background-image: url(Assets/cup.jpg);
+	background-repeat: no-repeat;
+	color: #231814;
+	height: 128px;
+	padding-bottom: 5px;
+	padding-left: 105px;
+	padding-top: 5px;
 }
 
-header a{
-  text-decoration: none;
+header a {
+	text-decoration: none;
 }
 
 header a:link {
-  color: #231814;
+	color: #231814;
 }
 
 header a:visited {
-  color: #231814;
+	color: #231814;
 }
 
 header a:hover {
-  color: #fef6c2;
+	color: #FEF6C2;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Bayon', sans-serif;
+}
+
+h2 {
+	color: #8C3826;
+}
+
+h3,
+dt {
+	color: #8C3826;
+}
+
+h4 {
+	background-color: #D2B48C;
+	border-bottom: 1px solid #221811;
+	clear: left;
+	font-size: 1.2em;
+	padding-bottom: 0;
+	padding-left: .5em;
+	text-transform: uppercase;
+}
+
+nav {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #FEF6C2;
+}
+
+nav a:visited {
+	color: #D2B48C;
+}
+
+nav a:hover {
+	color: #CC9933;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	border-bottom: 1px solid #FEF6C2;
+	padding: .5em 1em;
+	width: 100%;
 }
 
 main {
-  background-color: #fef6c2;
-  margin-left: 200 px;
-  overflow: auto;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+	background-color: #FEF6C2;
+	display: block;
+	padding: 0 0 2em 0;
 }
 
-main h2,
+h2,
 h3,
 h4,
 p,
 div,
 ul,
 dl {
-  padding-left: 3em;
-  padding-right: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
-h1 {
-  color: #8c3826;
-  font-family: "Luckiest Guy", cursive;
-  font-size: 3em;
-  text-align: center;
-}
-
-h2 {
-  color: #8c3826;
-  font-family: "Luckiest Guy", cursive;
-}
-
-h3,
-dt {
-  color: #8c3826;
-  font-family: "Luckiest Guy", cursive;
-}
-
-h4 {
-  background-color: #d2b48c;
-  border-bottom: 1px solid #221811;
-  font-family: "Luckiest Guy", cursive;
-  font-size: 1.2em;
-  padding-bottom: 0;
-  text-transform: uppercase;
-  padding-left: .5em;
-  clear: left;
-}
-
-nav {
-  font-size: 1.5em;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  float: left;
-  width: 200px;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav a:link {
-  color: #fef6c2;
-}
-
-nav a:hover {
-  color: #cc9933;
-}
-
-nav a:visited {
-  color: #d2b48c;
-}
-
-nav ul {
-  padding-left: 0;
-  list-style-type: none;
+main ul {
+	padding-left: 2em;
 }
 
 .details {
-  padding-right: 20%;
-  margin-left: 20%;
-  overflow: auto;
-}
-
-.floatleft {
-  float: left;
-  padding-bottom: 2em;
-  padding-right: 2em;
-}
-
-.onethird {
-  float: left;
-  width: 33%;
+	overflow: auto;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 img {
-  border-style: none;
-  max-width: 100%;
-  height: auto;
+	border-style: none;
+	max-width: 100%;
+	height: auto;
 }
 
 #homehero {
-  height: 300px;
-  background-image: url(Assets/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+	background-image: url(Assets/road.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
 }
 
 #heromugs {
-  height: 300px;
-  background-image: url(Assets/heromugs.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+	background-image: url(Assets/threemugs.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
 }
 
 #heroguitar {
-  height: 300px;
-  background-image: url(Assets/heroguitar.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+	background-image: url(Assets/guitar.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+
+#herojobs {
+	background-image: url(Assets/coffeecup.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+}
+
+#mobile {
+	display: inline;
+}
+
+#desktop {
+	display: none;
 }
 
 footer {
-  background-color: #d2b48c;
-  text-align: center;
-  font-size: 0.6em;
-  font-style: italic;
-  padding-bottom: 1em;
-  border-top: 2px solid #8c3826;
+	background-color: #D2B48C;
+	border-top: 2px solid #8C3826;
+	font-size: .60em;
+	font-style: italic;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	width: 90%;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #D2B48E;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+}
+
+input,
+textarea {
+	margin-bottom: .5em;
+}
+
+/* Configure Medium Layout */
+@media (min-width: 600px) {
+	header {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	nav ul {
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+
+	nav li {
+		border-bottom: none;
+	}
+
+	#homehero {
+		background-image: url(Assets/hero.jpg);
+		height: 50vh;
+	}
+
+	#heromugs {
+		background-image: url(iAssets/heromugs.jpg);
+	}
+
+	#heroguitar {
+		background-image: url(Assets/heroguitar.jpg);
+	}
+
+	#flow {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#desktop {
+		display: inline;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: row;
+	}
+
+	h4 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	form {
+		display: grid;
+		gap: 1em;
+		grid-gap: 1em;
+		grid-template-columns: 6em 1fr;
+		width: 40%;
+	}
+
+	input[type="submit"] {
+		grid-column: 2 / 3;
+		width: 9em;
+	}
+
+	#herojobs {
+		background-image: url(Assets/herojobs.jpg)
+	}
+}
+
+/* Configure Large Layout */
+@media (min-width: 1024px) {
+	@supports (display: grid) {
+		header {
+			grid-area: header;
+		}
+
+		nav {
+			grid-area: nav;
+		}
+
+		main {
+			grid-area: main;
+		}
+
+		footer {
+			grid-area: footer;
+		}
+
+		#wrapper {
+			display: grid;
+			grid-template:
+				"header header"
+				"nav    main"
+				"footer footer"
+				/ 200px;
+		}
+
+		nav ul {
+			flex-direction: column;
+		}
+
+		header {
+			background-image: url(Assets/coffeelogo.jpg);
+		}
+	}
 }
