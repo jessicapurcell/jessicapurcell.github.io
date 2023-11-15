@@ -9,7 +9,7 @@
 body {
 	background-color: #D2B48C;
 	color: #221811;
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: Bitter, Arial, sans-serif;
 	margin: 0;
 }
 
@@ -47,7 +47,7 @@ header a:hover {
 
 h1 {
 	font-size: 2em;
-	font-family: 'Bayon', sans-serif;
+	font-family: 'Luckiest Guy', sans-serif;
 }
 
 h2 {
@@ -91,8 +91,8 @@ nav a:hover {
 }
 
 nav ul {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
 	font-size: 1.25em;
 	list-style-type: none;
 	margin: 0;
@@ -101,8 +101,14 @@ nav ul {
 
 nav li {
 	border-bottom: 1px solid #FEF6C2;
-	padding: .5em 1em;
-	width: 100%;
+	/* padding: .5em 1em;
+	width: 100%; */
+}
+
+nav li a {
+	display: flex;
+	flex-direction: column;
+	padding: .5em 1 em;
 }
 
 main {
@@ -210,6 +216,31 @@ textarea {
 	margin-bottom: .5em;
 }
 
+.item {
+	background-color: #FAF9F7;
+	margin: 1em;
+	padding: 1em;
+	overflow: auto;
+}
+
+.item img {
+	float: right;
+}
+
+#herocouch {
+	background-image: url(Assets/herocouch.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+
+}
+
+.current {
+	background-color: navy;
+	text-decoration-color: white;
+	text-decoration-line: underline;
+}
+
 /* Configure Medium Layout */
 @media (min-width: 600px) {
 	header {
@@ -227,7 +258,7 @@ textarea {
 	}
 
 	nav li {
-		border-bottom: none;
+		border-bottom: 1px solid #FEF6C2;
 	}
 
 	#homehero {
@@ -236,7 +267,7 @@ textarea {
 	}
 
 	#heromugs {
-		background-image: url(iAssets/heromugs.jpg);
+		background-image: url(Assets/heromugs.jpg);
 	}
 
 	#heroguitar {
