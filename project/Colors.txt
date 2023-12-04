@@ -1,0 +1,10 @@
+#f2849e pink
+#7ecaf6 light blue
+#7bd0c1 seafoam
+#c75b9b darker pink
+#ae85ca lilac
+#8499e7 light navy
+
+Current banner colors
+0F2849 Navy
+7BD0C1 Teal
