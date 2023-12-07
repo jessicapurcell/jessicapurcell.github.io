@@ -8,3 +8,20 @@
 Current banner colors
 0F2849 Navy
 7BD0C1 Teal
+
+Original text color: 585858
+
+7b895b Army -FONT
+7BD4CC AquaPoise
+BEA42E Honey
+037367 Celadon
+00281F Sangria
+
+
+
+Gold: #C9A63B
+Deep Ocean: #147B8A
+Teal:  #007084
+Slate: #19566B
+Navy: #0F2849
+Aqua: 7BD4CC
